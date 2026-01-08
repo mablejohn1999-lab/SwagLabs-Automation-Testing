@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-12T11:52:54 IST" name="Suite" finished-at="2025-12-12T11:53:05 IST" duration-ms="10902">
+    <groups>
+    </groups>
+    <test started-at="2025-12-12T11:52:54 IST" name="Test" finished-at="2025-12-12T11:53:05 IST" duration-ms="10902">
+      <class name="testpkg.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testpkg.LoginTest@682b2fa]" started-at="2025-12-12T11:52:54 IST" name="setup" finished-at="2025-12-12T11:52:58 IST" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testpkg.LoginTest@682b2fa]" started-at="2025-12-12T11:52:58 IST" name="beforemethod" finished-at="2025-12-12T11:52:58 IST" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.LoginTest.login() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="login()[pri:1, instance:testpkg.LoginTest@682b2fa]" started-at="2025-12-12T11:52:58 IST" name="login" finished-at="2025-12-12T11:53:01 IST" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testpkg.LoginTest@682b2fa]" started-at="2025-12-12T11:53:01 IST" name="aftermethod" finished-at="2025-12-12T11:53:01 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:1, instance:testpkg.LoginTest@682b2fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testpkg.LoginTest@682b2fa]" started-at="2025-12-12T11:53:04 IST" name="aftertest" finished-at="2025-12-12T11:53:05 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testpkg.LoginTest -->
+      <class name="testpkg.HomeTest">
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testpkg.HomeTest@6743e411]" started-at="2025-12-12T11:53:01 IST" name="beforemethod" finished-at="2025-12-12T11:53:01 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.HomeTest.homepagetest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="homepagetest()[pri:2, instance:testpkg.HomeTest@6743e411]" started-at="2025-12-12T11:53:01 IST" name="homepagetest" finished-at="2025-12-12T11:53:02 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagetest -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testpkg.HomeTest@6743e411]" started-at="2025-12-12T11:53:02 IST" name="aftermethod" finished-at="2025-12-12T11:53:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homepagetest status=SUCCESS method=HomeTest.homepagetest()[pri:2, instance:testpkg.HomeTest@6743e411] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- testpkg.HomeTest -->
+      <class name="testpkg.CartTest">
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testpkg.CartTest@3eb25e1a]" started-at="2025-12-12T11:53:02 IST" name="beforemethod" finished-at="2025-12-12T11:53:02 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.CartTest.carttest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="carttest()[pri:3, instance:testpkg.CartTest@3eb25e1a]" started-at="2025-12-12T11:53:02 IST" name="carttest" finished-at="2025-12-12T11:53:02 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carttest -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testpkg.CartTest@3eb25e1a]" started-at="2025-12-12T11:53:02 IST" name="aftermethod" finished-at="2025-12-12T11:53:02 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carttest status=SUCCESS method=CartTest.carttest()[pri:3, instance:testpkg.CartTest@3eb25e1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- testpkg.CartTest -->
+      <class name="testpkg.CheckoutTest">
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:testpkg.CheckoutTest@477b4cdf]" started-at="2025-12-12T11:53:02 IST" name="beforemethod" finished-at="2025-12-12T11:53:02 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.CheckoutTest.checkouttest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="checkouttest()[pri:4, instance:testpkg.CheckoutTest@477b4cdf]" started-at="2025-12-12T11:53:02 IST" name="checkouttest" finished-at="2025-12-12T11:53:04 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkouttest -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@477b4cdf]" started-at="2025-12-12T11:53:04 IST" name="aftermethod" finished-at="2025-12-12T11:53:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkouttest status=SUCCESS method=CheckoutTest.checkouttest()[pri:4, instance:testpkg.CheckoutTest@477b4cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- testpkg.CheckoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
