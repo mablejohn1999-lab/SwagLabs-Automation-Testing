@@ -11,10 +11,6 @@ public class CartTest extends BaseClass {
 	public void carttest() throws Exception {
 		test=extent.createTest("carttest");
 		cartpage.clickcart();
-		//String actual=cartpage.pageverification();
-		//System.out.println(actual);
-		//Assert.assertTrue(actual.contains("cart"),"not true");
-		
 		String actualtext=cartpage.verifycartext();
 		Assert.assertEquals(actualtext,"Your Cart");
 		cartpage.clickchkout();
